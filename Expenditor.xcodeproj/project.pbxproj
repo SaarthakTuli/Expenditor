@@ -19,6 +19,7 @@
 		4C510D21295CCCF8008FF43B /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C510D20295CCCF8008FF43B /* TransactionList.swift */; };
 		4C510D23295CD05E008FF43B /* AddTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C510D22295CD05E008FF43B /* AddTransaction.swift */; };
 		4C510D26295CD247008FF43B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C510D25295CD247008FF43B /* Category.swift */; };
+		4C96B02F295F5973003C7108 /* LaunchAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C96B02E295F5973003C7108 /* LaunchAnimation.swift */; };
 		4CC03F9E295CDA5E0058F7A3 /* EditTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC03F9D295CDA5E0058F7A3 /* EditTransaction.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		4C510D20295CCCF8008FF43B /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 		4C510D22295CD05E008FF43B /* AddTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransaction.swift; sourceTree = "<group>"; };
 		4C510D25295CD247008FF43B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		4C96B02E295F5973003C7108 /* LaunchAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAnimation.swift; sourceTree = "<group>"; };
 		4CC03F9D295CDA5E0058F7A3 /* EditTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTransaction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				4C510D20295CCCF8008FF43B /* TransactionList.swift */,
 				4C510D22295CD05E008FF43B /* AddTransaction.swift */,
 				4CC03F9D295CDA5E0058F7A3 /* EditTransaction.swift */,
+				4C96B02E295F5973003C7108 /* LaunchAnimation.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				4C510D1D295CCBF8008FF43B /* Home.swift in Sources */,
 				4C510D26295CD247008FF43B /* Category.swift in Sources */,
 				4C510D05295CC934008FF43B /* ExpenditorApp.swift in Sources */,
+				4C96B02F295F5973003C7108 /* LaunchAnimation.swift in Sources */,
 				4C510D23295CD05E008FF43B /* AddTransaction.swift in Sources */,
 				4CC03F9E295CDA5E0058F7A3 /* EditTransaction.swift in Sources */,
 				4C510D15295CC961008FF43B /* Transaction.xcdatamodeld in Sources */,

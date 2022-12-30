@@ -39,8 +39,6 @@ extension String {
         let num = Double(formatter.number(from: self)!)
         
         let n = self.count - 4
-        print("number is: ", num)
-        print("count is: ", n)
         
         if (n < 4) {
             return self

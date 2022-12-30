@@ -254,8 +254,6 @@ struct Home: View {
                     moneyLeft += trans.amount
                 }
             }
-            
-            print("Dictionary is: ", dict)
         }
 
         let sortedDict = dict.sorted(by: { $0.0 < $1.0 })
