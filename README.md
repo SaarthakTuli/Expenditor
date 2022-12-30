@@ -6,6 +6,15 @@ A <b>FullStack IOS Notes App</b> created using <a href="https://developer.apple.
 No Special File Required, just Download and Open in <b>XCode</b>.
 
 
+## Working
+
+ - You can add an initial money that you have recieved to start, such as first pay or outstanding bank balance.
+- All Your Expenses, Transfers and Monthly Salary can be added as transactions, the system will also suggest a secure Transaction ID.
+- The 5 most recent Transactions are shown on the Home Page
+- The Chart maintains you Daily Change and the money you are left with in a readable format i.e. 12k, 15k etc
+- You can search for a transaction using Merchant Name, Category of transaction i.e. Shopping, Income etc. and Type of transactions i.e debit or credit
+
+
 ## Preview
 
 ### Light Mode
