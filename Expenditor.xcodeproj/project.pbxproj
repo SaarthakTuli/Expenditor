@@ -11,6 +11,15 @@
 		4C510D07295CC934008FF43B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C510D06295CC934008FF43B /* ContentView.swift */; };
 		4C510D09295CC934008FF43B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C510D08295CC934008FF43B /* Assets.xcassets */; };
 		4C510D0C295CC934008FF43B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C510D0B295CC934008FF43B /* Preview Assets.xcassets */; };
+		4C510D15295CC961008FF43B /* Transaction.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C510D13295CC961008FF43B /* Transaction.xcdatamodeld */; };
+		4C510D17295CC9C4008FF43B /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C510D16295CC9C4008FF43B /* DataController.swift */; };
+		4C510D1A295CCBC1008FF43B /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 4C510D19295CCBC1008FF43B /* SwiftUIFontIcon */; };
+		4C510D1D295CCBF8008FF43B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C510D1C295CCBF8008FF43B /* Home.swift */; };
+		4C510D1F295CCC9D008FF43B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C510D1E295CCC9D008FF43B /* Extensions.swift */; };
+		4C510D21295CCCF8008FF43B /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C510D20295CCCF8008FF43B /* TransactionList.swift */; };
+		4C510D23295CD05E008FF43B /* AddTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C510D22295CD05E008FF43B /* AddTransaction.swift */; };
+		4C510D26295CD247008FF43B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C510D25295CD247008FF43B /* Category.swift */; };
+		4CC03F9E295CDA5E0058F7A3 /* EditTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC03F9D295CDA5E0058F7A3 /* EditTransaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,14 @@
 		4C510D06295CC934008FF43B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C510D08295CC934008FF43B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C510D0B295CC934008FF43B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C510D14295CC961008FF43B /* Transaction.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Transaction.xcdatamodel; sourceTree = "<group>"; };
+		4C510D16295CC9C4008FF43B /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		4C510D1C295CCBF8008FF43B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4C510D1E295CCC9D008FF43B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4C510D20295CCCF8008FF43B /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
+		4C510D22295CD05E008FF43B /* AddTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransaction.swift; sourceTree = "<group>"; };
+		4C510D25295CD247008FF43B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		4CC03F9D295CDA5E0058F7A3 /* EditTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTransaction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C510D1A295CCBC1008FF43B /* SwiftUIFontIcon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +69,14 @@
 		4C510D03295CC934008FF43B /* Expenditor */ = {
 			isa = PBXGroup;
 			children = (
+				4C510D24295CD22C008FF43B /* Helpers */,
+				4C510D1B295CCBEC008FF43B /* Views */,
+				4C510D12295CC94E008FF43B /* CoreData */,
 				4C510D04295CC934008FF43B /* ExpenditorApp.swift */,
 				4C510D06295CC934008FF43B /* ContentView.swift */,
 				4C510D08295CC934008FF43B /* Assets.xcassets */,
 				4C510D0A295CC934008FF43B /* Preview Content */,
+				4C510D1E295CCC9D008FF43B /* Extensions.swift */,
 			);
 			path = Expenditor;
 			sourceTree = "<group>";
@@ -65,6 +87,34 @@
 				4C510D0B295CC934008FF43B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C510D12295CC94E008FF43B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4C510D13295CC961008FF43B /* Transaction.xcdatamodeld */,
+				4C510D16295CC9C4008FF43B /* DataController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		4C510D1B295CCBEC008FF43B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C510D1C295CCBF8008FF43B /* Home.swift */,
+				4C510D20295CCCF8008FF43B /* TransactionList.swift */,
+				4C510D22295CD05E008FF43B /* AddTransaction.swift */,
+				4CC03F9D295CDA5E0058F7A3 /* EditTransaction.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C510D24295CD22C008FF43B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4C510D25295CD247008FF43B /* Category.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +133,9 @@
 			dependencies = (
 			);
 			name = Expenditor;
+			packageProductDependencies = (
+				4C510D19295CCBC1008FF43B /* SwiftUIFontIcon */,
+			);
 			productName = Expenditor;
 			productReference = 4C510D01295CC934008FF43B /* Expenditor.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +164,9 @@
 				Base,
 			);
 			mainGroup = 4C510CF8295CC934008FF43B;
+			packageReferences = (
+				4C510D18295CCBC1008FF43B /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+			);
 			productRefGroup = 4C510D02295CC934008FF43B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +194,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C510D07295CC934008FF43B /* ContentView.swift in Sources */,
+				4C510D1F295CCC9D008FF43B /* Extensions.swift in Sources */,
+				4C510D17295CC9C4008FF43B /* DataController.swift in Sources */,
+				4C510D21295CCCF8008FF43B /* TransactionList.swift in Sources */,
+				4C510D1D295CCBF8008FF43B /* Home.swift in Sources */,
+				4C510D26295CD247008FF43B /* Category.swift in Sources */,
 				4C510D05295CC934008FF43B /* ExpenditorApp.swift in Sources */,
+				4C510D23295CD05E008FF43B /* AddTransaction.swift in Sources */,
+				4CC03F9E295CDA5E0058F7A3 /* EditTransaction.swift in Sources */,
+				4C510D15295CC961008FF43B /* Transaction.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +403,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C510D18295CCBC1008FF43B /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				kind = exactVersion;
+				version = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C510D19295CCBC1008FF43B /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C510D18295CCBC1008FF43B /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		4C510D13295CC961008FF43B /* Transaction.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C510D14295CC961008FF43B /* Transaction.xcdatamodel */,
+			);
+			currentVersion = 4C510D14295CC961008FF43B /* Transaction.xcdatamodel */;
+			path = Transaction.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4C510CF9295CC934008FF43B /* Project object */;
 }
